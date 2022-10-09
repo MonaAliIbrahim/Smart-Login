@@ -1,0 +1,65 @@
+body {
+  background-color: #24353F;
+}
+
+nav {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+nav .btn {
+  font-size: 18px;
+  padding-top: 4px;
+}
+
+nav .btn:hover {
+  color: #fff;
+}
+
+main {
+  min-height: calc(100vh - 56px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+h1 {
+  color: #17a2b8;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: center;
+  margin: 15px auto 30px;
+}
+
+form input.form-control,
+form input.form-control:focus {
+  font-size: 18px;
+  color: #B6B6B6;
+  margin-bottom: 16px;
+  background-color: #24353f;
+  box-shadow: none;
+}
+
+form input.form-control::placeholder {
+  color: #B6B6B6;
+}
+
+form .submit-btn:hover {
+  color: #fff;
+}
+
+form .navigate-btn {
+  color: #fff;
+  vertical-align: baseline;
+  border: 0;
+  padding: 0;
+}
+
+form .navigate-btn:hover {
+  text-decoration: underline;
+}
