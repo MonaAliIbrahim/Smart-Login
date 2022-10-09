@@ -110,7 +110,7 @@ function appendSignupFormToCard() {
       <h6 class="my-3 text-white">
         You have an account ?
         <button onclick="appendLoginFormToCard()" type="button" class="btn navigate-btn">
-          Signin
+          Sign In
         </button>
       </h6>
     <form/>`;
