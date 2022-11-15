@@ -1,9 +1,19 @@
 body {
-  background-color: #24353F;
+  font-family: 'PT Serif', serif;
+  background: #24353f url('../images/bg-cover.jpg') no-repeat 100%;
+  background-size: cover;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+  -webkit-filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.5));
 }
 
-nav {
+nav,
+.main-card {
+  background-color:rgb(36, 53, 64, 0.85);
   box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+nav .navbar-brand {
+  letter-spacing: 2px;
 }
 
 nav .btn {
@@ -22,13 +32,13 @@ main {
   justify-content: center;
 }
 
-.main-card {
-  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
-}
-
 h1 {
   color: #17a2b8;
   margin-bottom: 30px;
+}
+
+h1 span {
+  text-transform: uppercase;
 }
 
 form {
